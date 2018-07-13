@@ -1,0 +1,11 @@
+#ifndef _H_TESTMIAN_
+#define _H_TESTMIAN_
+
+#define TCF(funcname) {#funcname, funcname}
+
+//×¢²á²âÊÔÌ×¼þ
+BOOL RegisterMySuites();
+
+
+
+#endif

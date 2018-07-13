@@ -1,0 +1,391 @@
+<?xml version="1.0" ?> 
+<?xml-stylesheet type="text/xsl" href="CUnit-Run.xsl" ?> 
+<!DOCTYPE CUNIT_TEST_RUN_REPORT SYSTEM "CUnit-Run.dtd"> 
+<CUNIT_TEST_RUN_REPORT> 
+  <CUNIT_HEADER/> 
+  <CUNIT_RESULT_LISTING> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> FuncTestInfo_Common </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_MultiInit </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> FuncTestInfo_Telnet </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_CmdReg </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_Str2Occ </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_PrtLab </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_FileLog </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> FuncTestInfo_Thread </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_ThreadCreate </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_ThreadSelfExit </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_ThreadExitWait </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_ThreadKill </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_ThreadSuspendResume </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_SetPriority </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> FuncTestInfo_MemLib </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_MAllocCreate </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_MallocFree </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_PoolMallocFree </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_MAllocDestory </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> FuncTestInfo_SysInfo </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_CpuCoreTotalNumGet </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_IpListGet </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> FuncTestInfo_DirFile </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_DirCreateDel </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_FileDelete </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_FileLengthGet </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_DelFilesInDir </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> ExcptTestInfo_Telnet </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_CmdReg </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_Str2Occ </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> ExcptTestInfo_Thread </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_ThreadCreate </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_ThreadKill </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_ThreadSelfHandleGet </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_ThreadSuspendResume </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_SetPriority </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> ExcptTestInfo_Lock </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_LightLockCreate </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_LightLockDelete </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_LightLockLock </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_LightLockUnLock </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_SemBCreate </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_SemDelete </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_SemTake </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_SemTakeByTime </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_SemGive </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> ExcptTestInfo_MemLib </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_MAllocCreate </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_MRsrcTagAlloc </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_MAllocCreate </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_MAllocDestroy </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_Malloc </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_PoolMalloc </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_MFree </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_MSizeGet </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_MUserMemGet </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_MSysMemGet </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_MTypeGet </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> FunTest_MAllocDestory </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> ExcptTestInfo_SysInfo </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_IpListGet </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> ExcptTestInfo_DirFile </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_DirCreate </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_DirDelete </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_IsDirExist </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_IsPathExist </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_FileLengthGet </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_FileDelete </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> ExcptTest_DelFilesInDir </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+    <CUNIT_RUN_SUITE> 
+      <CUNIT_RUN_SUITE_SUCCESS> 
+        <SUITE_NAME> PersTestInfo_Thread </SUITE_NAME> 
+        <CUNIT_RUN_TEST_RECORD> 
+          <CUNIT_RUN_TEST_SUCCESS> 
+            <TEST_NAME> PersTest_ThreadCreateClose </TEST_NAME> 
+          </CUNIT_RUN_TEST_SUCCESS> 
+        </CUNIT_RUN_TEST_RECORD> 
+      </CUNIT_RUN_SUITE_SUCCESS> 
+    </CUNIT_RUN_SUITE> 
+  </CUNIT_RESULT_LISTING>
+  <CUNIT_RUN_SUMMARY> 
+    <CUNIT_RUN_SUMMARY_RECORD> 
+      <TYPE> Suites </TYPE> 
+      <TOTAL> 13 </TOTAL> 
+      <RUN> 13 </RUN> 
+      <SUCCEEDED> - NA - </SUCCEEDED> 
+      <FAILED> 0 </FAILED> 
+      <INACTIVE> 0 </INACTIVE> 
+    </CUNIT_RUN_SUMMARY_RECORD> 
+    <CUNIT_RUN_SUMMARY_RECORD> 
+      <TYPE> Test Cases </TYPE> 
+      <TOTAL> 58 </TOTAL> 
+      <RUN> 58 </RUN> 
+      <SUCCEEDED> 58 </SUCCEEDED> 
+      <FAILED> 0 </FAILED> 
+      <INACTIVE> 0 </INACTIVE> 
+    </CUNIT_RUN_SUMMARY_RECORD> 
+    <CUNIT_RUN_SUMMARY_RECORD> 
+      <TYPE> Assertions </TYPE> 
+      <TOTAL> 2353 </TOTAL> 
+      <RUN> 2353 </RUN> 
+      <SUCCEEDED> 2353 </SUCCEEDED> 
+      <FAILED> 0 </FAILED> 
+      <INACTIVE> n/a </INACTIVE> 
+    </CUNIT_RUN_SUMMARY_RECORD> 
+  </CUNIT_RUN_SUMMARY> 
+  <CUNIT_FOOTER> File Generated By CUnit v2.1-2 - Sat May 19 17:13:48 2018
+ </CUNIT_FOOTER> 
+</CUNIT_TEST_RUN_REPORT>

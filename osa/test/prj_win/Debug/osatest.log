@@ -1,0 +1,13 @@
+﻿  testmain.c
+  testenv.c
+  testcase_thread.c
+  testcase_telnet.c
+  testcase_sysinfo.c
+  testcase_memlib.c
+  testcase_lock.c
+  testcase_dirfile.c
+  正在生成代码...
+D:\Program Files\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1205,5): warning MSB8012: TargetPath(C:\Users\lenovo\Desktop\work\00cdd\00cbb\03src\10os\osa\prj_win\Debug\osatest.exe) 与 Linker 的 OutputFile 属性值(C:\Users\lenovo\Desktop\work\00cdd\00cbb\03src\10os\osa\test\run\debug\osatest_d.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+D:\Program Files\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1207,5): warning MSB8012: TargetName(osatest) 与 Linker 的 OutputFile 属性值(osatest_d)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+testcase_dirfile.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+LINK : fatal error LNK1104: 无法打开文件“../../../../../02lib/win32/debug/cds_d.lib”

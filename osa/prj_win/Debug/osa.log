@@ -1,0 +1,39 @@
+﻿  osa_thread.c
+  osa_telnetsvr.c
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_telnetsvr.c(1114): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“TTelnetSvrInfo *”
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_telnetsvr.c(1525): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“TTelnetSvrInfo *”
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_telnetsvr.c(1664): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“UINT64 *”
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_telnetsvr.c(1811): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“TTelnetSvrInfo *”
+  osa_sysinfo.c
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_sysinfo.c(47): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17134.0\um\winsock2.h(2218): note: 参见“gethostbyname”的声明
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_sysinfo.c(73): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17134.0\um\winsock2.h(1848): note: 参见“inet_ntoa”的声明
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_sysinfo.c(74): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17134.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+  osa_sock.c
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_sock.c(426): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17134.0\um\winsock2.h(1830): note: 参见“inet_addr”的声明
+  osa_mempool.c
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_mempool.c(140): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“MemPool *”
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_mempool.c(140): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“void *”
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_mempool.c(168): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“MemPool *”
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_mempool.c(168): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“void *”
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_mempool.c(194): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“MemPool *”
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_mempool.c(194): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“void *”
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_mempool.c(216): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“MemPool *”
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_mempool.c(216): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“void *”
+  osa_memlib.c
+  osa_lock.c
+  osa_inner.c
+  osa_dirfile.c
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_dirfile.c(121): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _mkdir. See online help for details.
+  d:\windows kits\10\include\10.0.17134.0\ucrt\direct.h(111): note: 参见“mkdir”的声明
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_dirfile.c(158): warning C4996: 'rmdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _rmdir. See online help for details.
+  d:\windows kits\10\include\10.0.17134.0\ucrt\direct.h(116): note: 参见“rmdir”的声明
+c:\users\lenovo\desktop\work\00cdd\00cbb\03src\10os\osa\source\osa_dirfile.c(254): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getcwd. See online help for details.
+  d:\windows kits\10\include\10.0.17134.0\ucrt\direct.h(94): note: 参见“getcwd”的声明
+  osa.c
+  正在生成代码...
+  osa.vcxproj -> C:\Users\lenovo\Desktop\work\00cdd\00cbb\03src\10os\osa\prj_win\Debug\osa_d.lib
+  已复制         1 个文件。
